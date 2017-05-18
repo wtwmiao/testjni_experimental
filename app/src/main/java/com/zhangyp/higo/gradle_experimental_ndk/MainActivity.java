@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         System.loadLibrary("testjni");
 
         MyNdk ndk = new MyNdk();
-       // tv.setText(ndk.getString());
+        tv.setText(ndk.getString());
 
        /// tv.setText(ndk.getParams());
     }
